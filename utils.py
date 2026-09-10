@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def plot_data(X, y, ax):
-    \"\"\"
-    Plots the data points on the provided axis.
-    \"\"\"
+    
+    #Plots the data points on the provided axis.
+    
     y = y.flatten()
     X0 = X[y == 0]
     X1 = X[y == 1]
